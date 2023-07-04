@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.backBtn {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(79, 79, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 70px;
+}
