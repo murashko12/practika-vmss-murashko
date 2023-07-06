@@ -7,8 +7,23 @@ const page = () => {
   return (
     <div className={styles.container}>
       <Link  href={`/instruments`}><div className={styles.backBtn}><IoMdArrowRoundBack /></div></Link>
-      <div>
-        
+      <div className={styles.documentation}>
+        <h1>Механическая энергия</h1>
+        <br />
+        <br />
+        <p>Механическая – требуется для физических манипуляций с материалами. К ним относятся:
+          <br />
+          <br />
+            <ul>
+              <li>центрифугирование</li>
+              <li>дробление</li>
+              <li>перемещение и прочее.</li>
+            </ul> 
+        </p>
+      </div>
+      <div className={styles.toolContainer}>
+        <div className={styles.tools}><h2>[ГРАФИКИ]</h2></div>
+        <div className={styles.tools}><h2>[ЗНАЧЕНИЯ И ПЕРЕМЕННЫЕ]</h2></div>
       </div>
     </div>
   )

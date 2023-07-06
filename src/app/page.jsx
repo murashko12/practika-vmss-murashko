@@ -5,8 +5,11 @@ import styles from './page.module.css'
 export default function Home() {
   
   return (
-    <div>
-      
+    <div className={styles.container}>
+      <div className={styles.logoContainer}>
+        <h1>[ЛОГОТИП]</h1>
+      </div>
+      <h1>[НАЗВАНИЕ (и доп. информация)]</h1>
     </div>
   )
 }

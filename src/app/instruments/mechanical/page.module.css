@@ -1,6 +1,7 @@
 .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .backBtn {
@@ -12,4 +13,42 @@
     align-items: center;
     border-radius: 50%;
     font-size: 70px;
+}
+
+.documentation {
+    height: 90vh;
+    width: 40%;
+    background-color: rgb(79, 79, 79);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.documentation h1 {
+    text-align: center;
+}
+
+.documentation p {
+    font-size: 20px;
+}
+
+.documentation ul {
+    margin-left: 40px;
+} 
+
+.toolContainer {
+    height: 90vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tools {
+    background-color: rgb(79, 79, 79);
+    border-radius: 30px;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
